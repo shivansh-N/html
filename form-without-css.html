@@ -3,36 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>form without css</title>
+	<title>form with css</title>
+	<link rel="stylesheet" type="text/css" href="styling-for-form.css">
 </head>
 <body>
- <div> 
-
-  	<form>
-  		<h2>Add record</h2>
-  		<br>
-  		<label>Location name:</label>
-  		<br>
-  		<input type="text">
-  		<br><br>
-  		<label>Location description:</label>
-  		<br>
-  		<textarea rows="5">
-  			
-  		</textarea>
-  		<br><br>
-
-  		<label>Status:</label><br>
-
-  		<input type="radio" id="Active" name="status">
-			<label for="Active">Active</label>
-			<input type="radio" id="Inactive" name="status">
-			<label for="Inactive">Inactive</label>
-
-			<br><br>
-			<button> Add</button>
-  	</form>
-
+ 	<div class="container main-section"> 
+	  	<form class="form-section">
+	  		<div class="form-heading"><h2 >Add record</h2></div>
+	  		
+	  		<div class="form-label"><label for="location-name">Location name:</label></div>
+	  		<div class="form-input"><input id= "location-name"type="text"></div>
+	  		
+	  		
+	  		<div class="form-label"><label for="location-desc">Location description:</label></div>
+	  		<div class="form-input"><textarea id="location-desc" rows="5"></textarea></div>
+	  		
+	  		<div class="form-status"><label class="form-label">Status:</label><br><br>
+	  			
+	  			<input class="form-radio-input" type="radio" id="Active" name="status">
+				<label class="form-label" for="Active">Active</label>
+				<input class="form-radio-input" type="radio" id="Inactive" name="status">
+				<label class="form-label"for="Inactive">Inactive</label>
+			
+			</div>
+			<div class="add-button">
+				<button class="form-btn"> Add</button>
+			</div>
+	  	</form>
 	</div>
 </body>
 </html>

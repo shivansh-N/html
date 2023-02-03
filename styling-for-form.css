@@ -1,0 +1,72 @@
+
+
+
+/* form with css task 2 */
+/* css for entire body */
+
+body{
+	background-color: blue;
+}
+
+/* css for container */
+
+.main-section{
+	background-color: transparent;
+}
+
+/* css for entire form */
+
+.form-section{
+	border-radius: 20px;
+	background-color: whitesmoke;
+	padding: 20px;
+}
+
+/* heading css */
+
+.form-heading h2{
+	color: blue;
+}
+
+/* css for all the labels in form */
+
+.form-label{
+	margin-bottom: 10px;
+	padding-left: 7px;
+}
+
+/* css for input field in form */
+
+.form-input input{
+	padding: 10px;
+	border-radius: 100px;
+	text-color: black;
+	margin-bottom: 10px;
+	background-color: skyblue;
+	border: 1px solid grey;
+}
+
+/* css for textarea in form */
+
+
+#location-desc{
+	margin-bottom: 10px;
+	border-radius: 15px;
+	text-color: black;
+	background-color: skyblue;
+	border: 1px solid grey;
+}
+
+/* css for button in form */
+
+.add-button .form-btn{
+	margin-top: 20px;
+	padding: 19px 75px;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-color: deepskyblue;
+	border-radius: 50px;
+}
+
+
